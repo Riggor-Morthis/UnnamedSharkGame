@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1301841516097749149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1301841516097749138}
+  - component: {fileID: 1301841516097749139}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1301841516097749138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301841516097749149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1301841516097749139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301841516097749149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a031bb4033aef44a8aa300632be3853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Step
+    clip: {fileID: 8300000, guid: bcc04d3fa27d1604d8ad3d1622f19edc, type: 3}
+    volume: 0.8
+    source: {fileID: 0}
+  - name: Block
+    clip: {fileID: 8300000, guid: 202475de249442b44ae956d1454753a0, type: 3}
+    volume: 0.4
+    source: {fileID: 0}
+  - name: PickUp
+    clip: {fileID: 8300000, guid: 8a26fadf5760d0644963697b6f8ece57, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: PlayerKilled
+    clip: {fileID: 8300000, guid: 77db24c2c2986b44a801714f2060fed7, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Gunshot
+    clip: {fileID: 8300000, guid: 0807aae1c7ca7354d8a7cf103d0d1946, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Triumph
+    clip: {fileID: 8300000, guid: a99d98cdf083284439617cae73e0e3d5, type: 3}
+    volume: 0.8
+    source: {fileID: 0}
+  - name: Music
+    clip: {fileID: 8300000, guid: f2c09ea8ce6cbfb419ba76059c740c7c, type: 3}
+    volume: 0.3
+    source: {fileID: 0}
